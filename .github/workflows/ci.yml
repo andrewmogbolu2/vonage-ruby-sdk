@@ -24,4 +24,5 @@ jobs:
     - name: Run tests
       run: bundle exec rake test
       env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }
+        key:  
